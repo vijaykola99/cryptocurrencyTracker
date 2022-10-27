@@ -1,0 +1,15 @@
+.app-background {
+  background: #000000;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-top: 50px;
+}
+@media screen and (max-width: 767px) {
+  .app-background {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,70 @@
+.heading {
+  font-family: 'Roboto';
+  color: #00e7ff;
+}
+.image {
+  margin-bottom: 20px;
+}
+.coins-container {
+  border: 2px solid #00e7ff;
+  width: 75vw;
+  border-radius: 5px;
+  padding-left: 0px;
+}
+.categories {
+  background: #092e33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 700;
+  padding: 15px;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.usd-euro-container {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  justify-content: space-between;
+}
+.loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.retry-button {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #00e7ff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .image {
+    width: 90%;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .categories {
+    font-size: 15px;
+  }
+  .usd-euro-container {
+    width: 35vw;
+  }
+  .coins-container {
+    width: 90vw;
+  }
+}
